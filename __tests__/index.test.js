@@ -1,8 +1,8 @@
 import isPrime from "../dist/index.js"
 
 test('testname', () => {
-  expecet(isPrime(1)).toBe(false);
-  expecet(isPrime(7)).toBe(true);
-  expecet(isPrime(10)).toBe(false);
-  expecet(isPrime(-7)).toBe(false);
+  expect(isPrime(1)).toBe(false);
+  expect(isPrime(7)).toBe(true);
+  expect(isPrime(10)).toBe(false);
+  expect(isPrime(-7)).toBe(false);
 });
